@@ -5,7 +5,7 @@
 
 import axios from "axios";
 //const API_URL = "http://localhost:3006/api/auth/";
-const API_URL = "https://obscure-harbor-20606.herokuapp.com/api/auth";
+const API_URL = "https://obscure-harbor-20606.herokuapp.com/api/auth/";
 
 // Register method: HTTP POST request to "signup" endpoint
 const register = (username, email, password) => {
