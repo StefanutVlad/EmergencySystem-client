@@ -4,7 +4,8 @@
 import axios from "axios";
 import authHeader from "./AuthHeader";
 
-const API_URL = "http://localhost:3006/api/test/";
+//const API_URL = "http://localhost:3006/api/test/";
+const API_URL = "https://obscure-harbor-20606.herokuapp.com/api/test/";
 
 const getPublicContent = () => {
   return axios.get(API_URL + "all");
