@@ -9,7 +9,7 @@
 /coverage
 
 # production
-
+REACT_APP_GOOGLE_MAPS_API_KEY
 
 # misc
 .DS_Store

@@ -21,7 +21,7 @@ import CookiesNotice from "./components/help/CookiesNotice";
 const App = () => {
   const [sensorsData, setUsersData] = useState([]);
   //const socket = io.connect("http://localhost:3006");
-  const socket = io.connect("https://obscure-harbor-20606.herokuapp.com/");
+  const socket = io.connect("https://obscure-harbor-20606.herokuapp.com");
   const { user: currentUser } = useSelector((state) => state.AuthReducer);
 
   socket.on("connect", () => {
