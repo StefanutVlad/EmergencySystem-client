@@ -117,7 +117,7 @@ const Header = ({ currentUser, sensorsData }) => {
                         </Link>
                       </li>
                       <li className="nav-item ms-lg-auto mx-2">
-                        <a href="/login" className="nav-link" onClick={logOut}>
+                        <a href="/" className="nav-link" onClick={logOut}>
                           LogOut
                         </a>
                       </li>
